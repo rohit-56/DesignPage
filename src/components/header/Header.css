@@ -1,0 +1,15 @@
+.navBar{
+    background-color: skyblue;
+    height: 5em;
+}
+.containLogo{
+    height: 5em;
+    /* background-color: black; */
+    width: 40em;
+    display: block;
+    margin-left: 3px;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
