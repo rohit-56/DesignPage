@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    height: 35em;
+    /* background-color: black; */
+   
+}
+.child1{
+    margin-left: 6em;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+
+}
+.head1{
+    margin-top: 3em;
+}
+.head2{
+    margin-top: 0.5em;
+    color: skyblue;
+}
+.btn{
+    margin-top: 1.5em;
+    width: 18em;
+    background-color: orange;
+    padding: 8px;
+}
+.child2{
+    margin-top: 3em;
+    margin-left: 7em;
+    /* background-color: aquamarine; */
+}
+.imageLogo{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+ 
+}
+
+@-webkit-keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
